@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menu</title>
+<style>
+/********** Base styles **********/
+    * {
+        box-sizing: border-box;
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    h6 {
+        margin: 0;
+    }
+    ul{
+        position:sticky;
+        border: 10px solid #A52A2A;
+        background-color: #A52A2A;
+        width: 95%;
+        height: 250px;
+        margin: auto;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: Helvetica;
+        color: white;
+    }
+    p {
+        border: 10px solid #A52A2A;
+        background-color: #A52A2A;
+        text-align: center;
+        width: 95%;
+        height:40px;
+        margin: 0;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: Helvetica;
+        color: white;
+    }
+    
+
+/* Simple Responsive Framework. */
+    .row {
+        width: 100%;
+    }
+/********** Large devices only **********/
+    @media (min-width: 1200px) {
+        .col-lg-3 {
+            width: 33%;
+            float:left;
+
+            border: 10px solid white;
+        }
+
+    }
+/********** Medium devices only **********/
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .col-md-6, .col-md-12 {
+            float: left;
+            border: 10px solid white;
+        }
+
+        .col-md-6 {
+            width: 50%;
+            border: 10px solid white;
+        }
+        .col-md-12 {
+            width: 100%;
+            float:left;
+            border: 10px solid white;
+            }
+        }
+</style>
+</head>
+<body>
+<h1>Menü</h1>
+
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        <p><b>Başlangıçlar</b></p>
+        <ul>
+            <li>Krepe Sarılı Somon Füme</li>
+            <h6>Kuzu kulağı ve krem peynir ile</h6>
+            <li>Somon Tarten</li>
+            <h6>Tam buğdaydan küçük köy ekmeklerinin üzerine yumurta ile somon füme, mayonez, avakado karışımı</h6>
+            <li>Piliç Kanatları</li>
+            <h6>Kızartılmış piliç kanatları; Louisiana sos ve patates kızartması ile</h6>
+            <li>Özel Soslu Patates Kızartması</li>
+            <h6>Özel Cafe de Paris soslu patates kızartması</h6>
+            <li>Lor Peynirli Kabak Sarma</li>
+            <h6>Akdeniz yeşillikleri ile</h6>
+            <li>Izgara Hellim Peyniri Tabağı</li>
+            <h6>Taze domates dilimleri üzerinde ızgara hellim</h6>
+        </ul>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <p><b>Ana Yemekler</b></p>
+        <ul id="deneme">
+            <li>Café de Paris Soslu Bonfile</li>
+            <h6>Özel Cafe de Paris soslu dana bonfile; patates kızartması ile</h6>
+            <li>Ispanaklı Fettuccine Yatağında Izgara Köfte</li>
+            <h6>Ispanaklı fettuccine üzerinde dilim ızgara köfte; özel sos ile</h6>
+            <li>Baharatla Kaplanmış Levrek Filetosu</li>
+            <h6>Tereyağlı patates, roka yaprakları, tereyağlı limon sosu ile</h6>
+            <li>Beğendili Tavuk Külbastı</li>
+            <h6>Taze baharatlarla marine edilmiş tavuk; patlıcan beğendi ızgara domates ve biber ile</h6>
+            <li>Köz Patlıcanlı Fusilli</li>
+            <h6>Közlenmiş patlıcan ve baharatlar ile</h6>
+            <li>Tavuklu ve Sebzeli Supreme Wrap</li>
+            <h6>Piliç bonfile, beyaz peynir, göbek salata, havuç, kabak, hardal sos; patates kızartması ile</h6>
+        </ul>
+    </div>
+    
+    <div class="col-lg-3 col-md-12">
+        <p><b>Salatalar</b></p>
+        <ul>
+            <li>Hardal Soslu Biftek Salata</li>
+            <h6>Julien doğranmış sıcak dana kontrfile, göbek salata; haşlanmış patates, soya filizi; ballı hardal sos ile</h6>
+            <li>Tavuklu ve Sebzeli Supreme Salata</li>
+            <h6>Göbek salata, Akdeniz yeşillikleri, ızgara biber dilimleri, ızgara tavuk, beyaz peynir; ballı hardal sos ile</h6>
+            <li>Ege Salatası</li>
+            <h6>Göbek salata, salatalık, domates, soğan, beyaz peynir, kekik, zeytin; zeytinyağı sos ile</h6>
+            <li>Lor Peynirli Karışık Tahıl Salatası</li>
+            <h6>Göbek salata, Akdeniz yeşillikleri, kiraz domates, sarı ve kırmızı biber, baby mısır, buğday, keten tohumu, yulaf, yeşil mercimek, kuru kayısı, lor peyniri</h6>
+            
+        </ul>
+    </div>
+</div>
+</body>
+</html>
